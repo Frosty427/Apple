@@ -1,20 +1,16 @@
 body {
-  overflow-x:hidden;
+  overflow-x: hidden;
   padding-right: 0px;
 }
-
 
 .apple_logo {
   padding-left: 200px;
 }
 
-
 .navbar {
   padding: 1px !important;
-  background: rgba(0,0,0,0.8) !important;
+  background: rgba(0, 0, 0, 0.8) !important;
   padding-bottom: 5px !important;
-
-
 }
 
 ul.navbar-nav li.nav-item a.nav-link {
@@ -22,12 +18,8 @@ ul.navbar-nav li.nav-item a.nav-link {
   color: white;
 }
 
-
-
-
-
 .navbar {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .navbar-dark .navbar-nav .nav-link,
@@ -35,15 +27,14 @@ ul.navbar-nav li.nav-item a.nav-link {
   color: #f2f2f2 !important;
 }
 
-
-footer ul{
+footer ul {
   list-style: none;
-  margin:0;
+  margin: 0;
   padding: 0;
   font-size: 11px;
   line-height: 1.45455;
   font-weight: 400;
-  letter-spacing: .005em;
+  letter-spacing: 0.005em;
   font-family: "Open Sans";
 
   color: #333;
@@ -51,13 +42,11 @@ footer ul{
   overflow: hidden;
   position: relative;
   z-index: 1;
-
 }
 
 .allbot {
   position: relative;
   left: 200px;
-
 }
 
 .bottm1 {
@@ -72,3 +61,36 @@ footer ul{
 .pr {
   padding-right: 890px !important;
 }
+
+
+@media (max-width: 400px) {
+  .xs-none {
+    display: none !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* <div class="d-none d-lg-block d-xl-block">
+  <div class="pl-5 col-lg-12 col-md-12 col-xl-12 text-muted find allbot bottm1" style="font-size: 11px;">
+    <p>More ways to shop: Visit an<a href="#"> Apple Store</a>, call 1-800-MY-APPLE, or <a href="#">find a reseller</a></p>
+  </div>
+  <hr style="width:50%">
+  <div class="d-inline">
+    <p class="text-muted pt-3" style="font-size: 12px;">Copyright &copy;2018 Apple Inc. All rights reserved.</p>
+    <p class="text-muted" style="font-size: 12px;">Privacy | Policy | Terms of Use | Sales and Refunds | Legal | Site Map</p>
+  </div>
+  <div class="d-inline"></div>
+  <div class="d-inline"></div>
+  <div class="d-inline"></div>
+</div> */
